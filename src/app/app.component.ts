@@ -10,5 +10,6 @@ export class AppComponent {
   title = 'OctoChrome';
   constructor(private translate: TranslateService){
     this.translate.setDefaultLang(navigator.language);
+    console.log(navigator.language);
   }
 }
