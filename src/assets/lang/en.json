@@ -1,5 +1,6 @@
 {
     "LOGIN": {
+        "IMG_DESC": "OctoChrome logo",
         "BTN_CONNECT": "Connect",
         "INPUT_API": "API Key",
         "INPUT_API_HOVER": "Insert the API key of your Octoprint instance",
