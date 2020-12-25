@@ -1,12 +1,16 @@
-<div class="row mt-2 mb-3">
-    <div class="col">
-        <form id="register">
-            <h2 class="mt-2 mb-3">OctoChrome</h2>
-            <input type="text" id="user" placeholder="User" requiered /><br>
-            <input type="password" id="password" placeholder="Password" required><br>
-            <input type="text" id="apiKey" placeholder="ApiKey" required /><br>
-            <input type="text" id="url" placeholder="Url" required /><br>
-            <button id="btnRegister">{{'LOGIN.BTN_CONNECT' | translate}}</button>
-        </form>
+<div class="container register-container">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="mt-3 mb-3 register-title">OctoChrome</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form [formGroup]="registerForm" id="register" (ngSubmit)="onSubmit()">
+                <input type="text" placeholder="ApiKey" formControlName="apiKey" required /><br>
+                <input type="text" placeholder="Url" formControlName="url" required /><br>
+                <button id="btnRegister">{{'LOGIN.BTN_CONNECT' | translate}}</button>
+            </form>
+        </div>
     </div>
 </div>
