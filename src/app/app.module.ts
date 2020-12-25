@@ -10,6 +10,7 @@ import { SigninComponent } from './pages/signin/signin.component';
 //Translate module
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core"
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HomeComponent } from './pages/home/home.component';
 
 export function createTranslateLoader(http: HttpClient){
   return new TranslateHttpLoader(http, './assets/lang/', '.json')
@@ -18,7 +19,8 @@ export function createTranslateLoader(http: HttpClient){
 @NgModule({
   declarations: [
     AppComponent,
-    SigninComponent
+    SigninComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

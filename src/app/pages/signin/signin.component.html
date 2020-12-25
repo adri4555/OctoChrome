@@ -13,10 +13,10 @@
         <div class="col">
             <form [formGroup]="registerForm" id="register" (ngSubmit)="onSubmit()">
                 <input type="text" data-placement="left" title="{{'LOGIN.INPUT_API_HOVER' | translate}}"
-                    placeholder="{{'LOGIN.INPUT_API' | translate}}" formControlName="apiKey" required /><br>
-                <input type="text" data-placement="left" title="{{'LOGIN.INPUT_URL_HOVER' | translate}}"
-                    placeholder="{{'LOGIN.INPUT_URL' | translate}}" formControlName="url" required /><br>
-                <button id="btnRegister">{{'LOGIN.BTN_CONNECT' | translate}}</button>
+                    placeholder="{{'LOGIN.INPUT_API' | translate}}" formControlName="apiKey" required />
+                <input type="text" class="mt-2" data-placement="left" title="{{'LOGIN.INPUT_URL_HOVER' | translate}}"
+                    placeholder="{{'LOGIN.INPUT_URL' | translate}}" formControlName="url" required />
+                <button id="btnRegister" class="mt-4">{{'LOGIN.BTN_CONNECT' | translate}}</button>
             </form>
         </div>
     </div>

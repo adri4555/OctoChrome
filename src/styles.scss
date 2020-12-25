@@ -6,8 +6,11 @@
     font-family: "arvo-bold";
     src: local("Arvo-bold"), url(./assets/fonts/arvo-bold.ttf) format("truetype");
 }
-
 //################### END FONTS ####################
+
+@import url('font-awesome.min.css');
+
+
 body{
     margin: 0;
     padding: 0;
