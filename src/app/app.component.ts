@@ -9,7 +9,8 @@ import { TranslateService } from "@ngx-translate/core";
 export class AppComponent {
   title = 'OctoChrome';
   constructor(private translate: TranslateService){
-    this.translate.setDefaultLang(navigator.language);
+    this.translate.setDefaultLang('en');
+    this.translate.use(navigator.language);
     console.log(navigator.language);
   }
 }
