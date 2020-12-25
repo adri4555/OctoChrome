@@ -7,8 +7,8 @@
     <div class="row">
         <div class="col">
             <form [formGroup]="registerForm" id="register" (ngSubmit)="onSubmit()">
-                <input type="text" placeholder="ApiKey" formControlName="apiKey" required /><br>
-                <input type="text" placeholder="Url" formControlName="url" required /><br>
+                <input type="text" data-placement="left" title="{{'LOGIN.INPUT_API_HOVER' | translate}}" placeholder="{{'LOGIN.INPUT_API' | translate}}" formControlName="apiKey" required /><br>
+                <input type="text" data-placement="left" title="{{'LOGIN.INPUT_URL_HOVER' | translate}}" placeholder="{{'LOGIN.INPUT_URL' | translate}}" formControlName="url" required /><br>
                 <button id="btnRegister">{{'LOGIN.BTN_CONNECT' | translate}}</button>
             </form>
         </div>

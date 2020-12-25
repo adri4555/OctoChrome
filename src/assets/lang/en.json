@@ -1,5 +1,9 @@
 {
     "LOGIN": {
-        "BTN_CONNECT": "Connect"
+        "BTN_CONNECT": "Connect",
+        "INPUT_API": "API Key",
+        "INPUT_API_HOVER": "Insert the API key of your Octoprint instance",
+        "INPUT_URL": "URL",
+        "INPUT_URL_HOVER": "Insert here your Octoprint instance URL"
     }
 }
