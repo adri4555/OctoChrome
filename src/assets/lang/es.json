@@ -1,5 +1,6 @@
 {
     "LOGIN": {
+        "IMG_ALT": "Logo de OctoChrome",
         "BTN_CONNECT": "Conectar",
         "INPUT_URL_HOVER": "Introduce la URL de tu instancia de Octoprint",
         "INPUT_API_HOVER": "Introduce la clave API de tu instancia de Octoprint"
