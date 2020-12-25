@@ -1,7 +1,7 @@
 {
-    "name": "Great Extension",
-    "version": "1.0",
-    "description": "Build an Extension with Angular",
+    "name": "OctoChrome",
+    "version": "0.0.1",
+    "description": "A chrome extension to use with your octoprint instance",
     "manifest_version": 2,
     "icons": {
         "19": "assets/icons/icon_19.png",
